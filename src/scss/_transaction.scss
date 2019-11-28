@@ -1,0 +1,257 @@
+.wrap-transaction{
+	.p-3 {
+    padding: 0.9rem 1rem !important;
+	}
+	.heading-with-filter{
+		.filter, .sort{
+			display:none;
+		}
+	}
+	padding:40px 0px 120px 0px;
+	h3{
+	font-size: 36px;
+    font-family: 'PNC Sans General';
+    line-height: 39px;
+    color: #2D3942;
+    padding-bottom: 2px;  
+	display:inline-block;
+	}
+	.pnc-transaction-pagination{
+		.month-filter{
+			margin-right:20px;
+			display:flex;
+			align-items:center;
+				span{
+					margin-right:20px;
+					font-family:'PNC Sans General';
+		}
+		}
+		.card-filter{
+		display:flex;
+		align-items:center;
+		span{
+					margin-right:20px;
+					font-family:'PNC Sans General';
+		}
+		}
+		select{
+			@include select-style;
+			
+		}
+	}
+	.pnc-transaction-wrapper{
+		@include table-shadow;
+		margin-top:13px;
+		line-height: 14px;
+		font-size: 14px;
+		a{
+			color: $color-dark-gray;
+		}
+		.pnc-transaction-table{
+			@include table-color-dark;
+			
+		}
+		.mAlernate:nth-child(odd) {
+    background-color:$color-gray-4;
+		}
+		
+	}
+	
+			.view-per-page-sec{
+				select{
+					@include select-style;
+					padding:0px 10px;
+				}
+				.view-per-page-sec-inner{
+				align-items:center;
+				font-family:'PNC Sans General';
+				margin-top:15px;				
+				select{
+					width:70px;
+					-moz-appearance: none;
+					-webkit-appearance: none;
+					background: #fff url("../images/arrow-down.png") no-repeat center right;
+					padding-right: 10px;
+					width: 85px;
+				}				
+				}				
+			}
+			.view-per-page-sec-inner{
+				select{
+					margin:0px 15px;
+					width:70px;
+				}
+			}			
+			select{
+					width:70px;
+					-moz-appearance: none;
+					-webkit-appearance: none;
+					background: #fff url("../images/arrow-down.png") no-repeat center right;
+					padding-right: 10px;
+					width: 85px;
+				}
+				.points-mobile-only{
+					display:none;
+				}
+}
+
+	@include respond-below(md){
+		
+		.wrap-transaction{
+			padding: 40px 0px 70px 0px;
+		.p-3 {
+		padding: 0.5rem !important;
+	}
+	.heading-with-filter{
+			.filter, .sort{
+				display:block;
+				color:$btn-blue;
+				margin-top:5px;
+				
+				font-family:'PNC Sans Medium';
+				img{
+					margin-right:5px;
+				}
+			}
+		}
+	h3{
+			font-size: 30px;
+			}
+		.pagination-wrap{
+			display:none;
+		}
+		.pnc-transaction-wrapper{
+			box-shadow: none !important;
+			.pnc-transaction-table{
+			
+			display:none !important;
+		 }
+		 .mAlernate{
+			margin-bottom: 20px;
+			box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.25);
+			background-color: #F1F4F5;
+			padding: 5px 10px;
+			background-image: url(../images/circlearrow.svg) !important;
+			background-repeat: no-repeat;
+			background-position: 95%;
+		span:last-child{
+			font-family:'PNC Sans General';
+		}
+		 }
+		 
+		 .p-3.col-md-2:nth-child(2) {
+				display:none;
+			}
+			.p-3.col-md-2:nth-child(4) {
+				display:none;
+				text-align:left!important;
+			}
+			.p-3.col-md-2:nth-child(5) {
+				text-align:left!important;
+				font-weight:700;
+			}
+			.mdateAlignment{
+				order:2;
+		}	
+		}
+		 
+	}
+	
+	.view-per-page-sec{
+		display:none;
+	}
+	.points-mobile-only{
+		display:inline-block !important;
+		padding-left:5px;
+	}
+ }
+	@include respond-below(sm){
+			padding: 40px 0px 70px 0px;
+		.wrap-transaction{
+			.p-3 {
+				padding: 0.5rem !important;
+			}
+	.heading-with-filter{
+		.filter, .sort{
+			display:block;
+			color:$btn-blue;
+			margin-top:5px;
+			
+			font-family:'PNC Sans Medium';
+			img{
+				margin-right:5px;
+			}
+		}
+		
+	}
+h3{
+	    font-size: 26px;
+		}
+		.pagination-wrap{
+			display:none;
+		}
+		.pnc-transaction-wrapper{
+			box-shadow: none !important;
+			.pnc-transaction-table{
+			
+			display:none !important;
+		 }
+		 .mAlernate{
+		 margin-bottom: 20px;
+			box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.25);
+			background-color: #F1F4F5;
+			padding: 5px 10px;
+			background-image: url(../images/circlearrow.svg) !important;
+			background-repeat: no-repeat;
+			background-position: 95%;
+	span:last-child{
+			font-family:'PNC Sans General';
+		}
+		 }
+		 .p-3.col-md-2:nth-child(2) {
+				display:none;
+			}
+			.p-3.col-md-2:nth-child(4) {
+				display:none;
+				text-align:left!important;
+			}
+			.p-3.col-md-2:nth-child(5) {
+				text-align:left!important;
+				font-weight:700;
+			}
+			.mdateAlignment{
+				order:2;
+		}	
+		}
+		 
+	}
+	.view-per-page-sec{
+		display:none;
+	}
+	.points-mobile-only{
+		display:inline-block !important;
+		padding-left:5px;
+	}	
+	
+	}
+	
+	// Only for 5S & SE
+	
+	@media only screen 
+	  and (min-device-width: 320px) 
+	  and (max-device-width: 370px){
+	  .filter, .sort{
+	  
+	  font-size: 14px !important;
+	  }
+  
+  }
+  
+  .wrap-transaction{
+	.sort-inactive{
+		img{
+			position:relative;
+			top:-2px;
+		}
+	}
+  }

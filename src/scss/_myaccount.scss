@@ -1,0 +1,342 @@
+.wrap-acc{
+	padding: 40px 0 70px 0px;
+
+	.p-3{
+		padding:0.9rem 1rem !important;
+	}
+	h3{
+		@include heading-style;
+		margin-bottom:30px !important;
+	}
+	.pnc-sub-heading{
+			color:$color-gray;
+			font-family: "PNC Sans Medium";
+			font-size: 16px;	
+			line-height: 24px;
+			text-transform:uppercase;
+			margin-bottom:13px;
+		.pnc-see-orders{
+			float:right;
+			button{		
+			@include button-style;
+			}		
+		}
+		.pnc-see-summary{
+		float:right;
+			button{
+			@include button-style;
+			}
+		}
+	}	
+	button.see-transaction, button.see-order{
+		display:none;
+		}
+	.pnc-flex-wrapper .flex-wrap.mwrapper{					
+		line-height:14px;
+		font-size:14px;
+		color: $color-dark-gray;
+		align-items:center;
+		min-height:43px;
+		}
+	.pnc-flex-wrapper .flex-wrap:nth-child(odd){
+		background-color:$color-gray-4;		
+	}
+	.pnc-acc-summary-wrap{
+		background-color:$color-gray-4;
+			padding: 15px 20px 47px;
+		@include table-shadow;
+			.reward-point{
+				color: #F58025;
+				font-size: 25px;
+				font-family: 'PNC Sans General';
+				line-height: 26px;
+				margin-bottom:12px;
+			}
+			.pnc-ponits-available{
+				span{
+						color: $color-dark-gray;
+						font-family: "PNC Sans General";
+						font-size: 16px;
+						display:inline-block;					
+						line-height: 36px;
+				}
+				.pnc-redeem-points{
+					float:right;
+				}
+			}
+			}
+			.pnc-flex-wrapper{
+				
+				@include table-shadow;
+				.pnc-table-color{
+				@include table-color;
+			}
+			.pnc-reward-orders{
+				padding: 13px;
+				font-size: 14px;
+				line-height: 14px;
+			}
+		.pnc-flex-wrapper{
+		.mwrapper{
+			
+			padding:10px 20px;
+			
+		}
+	}
+		
+		}
+		.pnc-flex-wrapper-order{
+			color:$color-dark-gray;
+			line-height:14px;
+			font-size:14px;
+			@include table-shadow;
+			.mAlernate:nth-child(odd){
+				background-color:$color-gray-4;
+			}
+		}
+		.pnc-flex-wrapper-order a{ color: $color-dark-gray; }
+		.pnc-table-color-order{
+			@include table-color-dark;
+			
+		}
+		.pnc-divider{
+			margin-top:40px;
+		}
+		.pnc-tooltip{
+			@include tooltip;
+		}
+	
+}
+
+	@include respond-above(md){
+		.pnc-flex-wrapper {
+				.flex-wrap.mwrapper{
+			height: 34px;
+		}
+		}
+
+	}
+
+	@include respond-above(md){
+			.reward-offer-flex-container .p-3{
+			padding:8px 18px !important;
+		}
+
+	}
+	@include respond-between(sm,md){
+		.mt-10{
+			margin-top:30px;
+		}
+		.wrap-acc{
+			h3{
+				margin-bottom:20px !important;
+			}
+			.pnc-acc-summary-wrap{
+				padding: 20px 17px;
+			}
+			.pnc-see-summary,.pnc-see-orders{
+			button{
+				display:none;
+			}
+		}
+		.p-3{
+			padding: 0.5rem !important;
+			
+		}
+
+	.pnc-flex-wrapper{
+	
+		box-shadow:none;
+		
+		.mwrapper{
+			margin-bottom:20px;
+			box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.25);
+			background-color:$color-gray-4;
+			padding:5px 10px;
+			background-image: url(../images/circlearrow.svg)!important;   
+				background-repeat: no-repeat;
+				background-position: 95%;
+				.mdateAlignment{
+				order:2;	
+		}	
+							.mStatusAlignment{
+		font-family: "PNC Sans General";
+	}
+		}
+	}
+	.pnc-table-color-order{
+	display:none !important;
+	}
+	.pnc-flex-wrapper-order{
+			box-shadow:none !important;;
+			.mAlernate{
+				margin-bottom:20px;
+				box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.25);
+				background-color: #F1F4F5;
+				padding: 5px 10px;
+				background-image: url(../images/circlearrow.svg) !important;
+				background-repeat: no-repeat;
+				background-position: 95%;
+				.bold-text{
+				font-family: "PNC Sans General";
+				}
+				
+			}
+			
+			.p-3.col-md-2:nth-child(2) {
+				display:none;
+			}
+			.p-3.col-md-2:nth-child(4) {
+				display:none;
+			}
+			.p-3.col-md-2:nth-child(5) {
+				text-align:left!important;
+				font-weight:700;
+			}
+			.mdateAlignment{
+				order:2;
+		}	
+	}
+	.pnc-sub-heading .pnc-see-summary{
+		display:none;
+	}
+	.d-flex.flex-wrap.mAlernate{
+		
+		font-size: 14px;
+		
+	}
+	button.see-transaction, button.see-order{
+		display:block !important;
+		width:45%;
+		color:$color-white;
+		background-color:$btn-blue;
+		margin: 30px auto 0px;		
+		    padding: 10px 0px;
+	}
+	
+	
+	.reward-point{
+		margin-bottom:12px !important;
+	}
+	
+	}
+	.reward-offer-flex-container .p-3{
+		padding: 0.5rem !important;
+		
+	}	
+}
+@include respond-below(sm){
+	.wrap-acc{
+	.p-3{
+		padding: 0.5rem !important;		
+	}
+	h3{
+			margin-bottom:20px !important;
+		}
+	.pnc-flex-wrapper{
+	box-shadow:none;
+	
+	}
+	.pnc-flex-wrapper{
+		.mwrapper{
+			margin-bottom:20px;
+			box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.25);
+			background-color:$color-gray-4;
+			padding:5px 10px;
+			background-image: url(../images/circlearrow.svg)!important;   
+				background-repeat: no-repeat;
+				background-position: 95%;
+				.mdateAlignment{
+				order:2;
+		}	
+		}
+	}
+	.pnc-table-color-order{
+	display:none!important;
+	}
+	.pnc-divider{
+		margin-top: 25px;
+	}
+	.pnc-flex-wrapper-order{
+			box-shadow:none !important;
+			.mAlernate{
+				margin-bottom:20px;
+				box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.25);
+				background-color: $color-gray-4;
+				padding: 5px 10px;
+				background-image: url(../images/circlearrow.svg) !important;
+				background-repeat: no-repeat;
+				background-position: 95%;
+			}
+			
+			.p-3.col-md-2:nth-child(2) {
+				display:none;
+			}
+			.p-3.col-md-2:nth-child(4) {
+				display:none;
+			}
+			.p-3.col-lg-2:nth-child(5) {
+				text-align:left!important;
+				
+			}
+		.mdateAlignment{
+				order:2;
+		}		
+	}
+	.pnc-sub-heading .pnc-see-summary{
+		display:none;
+	}
+	.pnc-sub-heading .pnc-see-orders{
+	display:none;
+	} 
+	.d-flex.flex-wrap.mAlernate{
+		
+		font-size: 14px;
+
+	}
+	button.see-transaction, button.see-order{
+		display:block !important;
+		width:100%;
+		color:$color-white;
+		background-color:$btn-blue;
+		padding: 10px 0px;
+		margin-top: 30px;
+		
+	}
+	.pnc-acc-summary-wrap{
+		margin-bottom:30px !important;
+		padding: 20px 17px;
+	}
+	
+	.reward-point{
+		margin-bottom:25px !important;
+	}
+	.pnc-ponits-available{
+		div {
+			margin-bottom:30px;
+			
+		}
+		div:last-child {
+			margin-bottom:0px;
+			
+		}
+		 span{
+		display:block !important;
+		float:none !important;
+		line-height:18px !important;
+	}
+	}
+	}
+	.mStatusAlignment{
+		font-family: "PNC Sans General";
+	}
+	
+	.mAlernate span.bold-text{
+		font-family: "PNC Sans General";
+		color:$color-dark-gray;
+	}
+	.reward-offer-flex-container .p-3{
+		padding: 0.5rem !important;
+		
+	}
+}

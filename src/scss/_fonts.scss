@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'PNC Sans General';
+    src: url('../font/PNCSans-Bold.eot');
+    src: url('../font/PNCSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/PNCSans-Bold.woff2') format('woff2'),
+        url('../font/PNCSans-Bold.woff') format('woff'),
+        url('../font/PNCSans-Bold.ttf') format('truetype'),
+        url('../font/PNCSans-Bold.svg#PNCSans-Bold') format('svg');
+   
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PNC Sans Italic';
+    src: url('../font/PNCSans-BoldItalic.eot');
+    src: url('../font/PNCSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/PNCSans-BoldItalic.woff2') format('woff2'),
+        url('../font/PNCSans-BoldItalic.woff') format('woff'),
+        url('../font/PNCSans-BoldItalic.ttf') format('truetype'),
+        url('../font/PNCSans-BoldItalic.svg#PNCSans-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PNC Sans SemiItalic';
+    src: url('../font/PNCSans-MediumItalic.eot');
+    src: url('../font/PNCSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/PNCSans-MediumItalic.woff2') format('woff2'),
+        url('../font/PNCSans-MediumItalic.woff') format('woff'),
+        url('../font/PNCSans-MediumItalic.ttf') format('truetype'),
+        url('../font/PNCSans-MediumItalic.svg#PNCSans-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PNC Sans Medium';
+    src: url('../font/PNCSans-Medium.eot');
+    src: url('../font/PNCSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../font/PNCSans-Medium.woff2') format('woff2'),
+        url('../font/PNCSans-Medium.woff') format('woff'),
+        url('../font/PNCSans-Medium.ttf') format('truetype'),
+        url('../font/PNCSans-Medium.svg#PNCSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PNC Sans Regular';
+    src: url('../font/PNCSans-Regular.eot');
+    src: url('../font/PNCSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/PNCSans-Regular.woff2') format('woff2'),
+        url('../font/PNCSans-Regular.woff') format('woff'),
+        url('../font/PNCSans-Regular.ttf') format('truetype'),
+        url('../font/PNCSans-Regular.svg#PNCSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PNC Sans Light Italic';
+    src: url('../font/PNCSans-LightItalic.eot');
+    src: url('../font/PNCSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/PNCSans-LightItalic.woff2') format('woff2'),
+        url('../font/PNCSans-LightItalic.woff') format('woff'),
+        url('../font/PNCSans-LightItalic.ttf') format('truetype'),
+        url('../font/PNCSans-LightItalic.svg#PNCSans-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PNC Sans Light';
+    src: url('../font/PNCSans-Light.eot');
+    src: url('../font/PNCSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('../font/PNCSans-Light.woff2') format('woff2'),
+        url('../font/PNCSans-Light.woff') format('woff'),
+        url('../font/PNCSans-Light.ttf') format('truetype'),
+        url('../font/PNCSans-Light.svg#PNCSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PNC Sans Regular Italic';
+    src: url('../font/PNCSans-RegularItalic.eot');
+    src: url('../font/PNCSans-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/PNCSans-RegularItalic.woff2') format('woff2'),
+        url('../font/PNCSans-RegularItalic.woff') format('woff'),
+        url('../font/PNCSans-RegularItalic.ttf') format('truetype'),
+        url('../font/PNCSans-RegularItalic.svg#PNCSans-RegularItalic') format('svg');
+    font-weight: normal;
+}
+

@@ -1,0 +1,259 @@
+.wrap-order{
+	.p-3 {
+    padding: 0.9rem 1rem !important;
+}
+	.heading-with-filter{
+		.filter, .sort{
+			display:none;
+		}
+	}
+	padding:40px 0px 120px 0px;
+	h3{
+	    font-size: 36px;
+    font-family: 'PNC Sans General';
+    line-height: 39px;
+    color: #2D3942;
+    padding-bottom: 2px;   
+	display:inline-block;
+	}
+	.pnc-transaction-pagination{	
+					select{
+					margin:0px 15px;
+					width:70px;
+					-moz-appearance: none;
+					-webkit-appearance: none;
+					background: #fff url("../images/arrow-down.png") no-repeat center right;
+					padding-right: 10px;
+					margin: 0px 15px;
+					width: 80px;
+				}				
+		.month-filter{
+			margin-right:22px;
+			display:flex;
+			align-items:center;
+				span{
+					margin-right:13px;
+					font-family:'PNC Sans General';
+		}				
+		}
+		.card-filter{
+		display:flex;
+		align-items:center;
+		span{
+					margin-right:9px;
+					font-family:'PNC Sans General';
+		}
+		select{
+			margin-right: 0px;
+		}
+		}
+		select{
+			@include select-style;
+			
+		}
+	}
+	.pnc-order-wrapper{
+		@include table-shadow;
+		margin-top:11px;
+		line-height: 14px;
+		font-size: 14px;
+		a{
+			color: $color-dark-gray;
+		}
+		.pnc-order-table{
+			@include table-color-dark;
+			
+		}
+		.mAlernate:nth-child(odd) {
+    background-color:$color-gray-4;
+		}
+		
+	}
+	.p-3.col-lg-2:nth-child(5) {				
+			}
+			.view-per-page-sec{
+				select{
+					@include select-style;
+					padding:0px 10px;
+				}
+				.view-per-page-sec-inner{
+				align-items:center;
+				font-family:'PNC Sans General';
+				margin-top:15px;
+				
+					select{
+					margin:0px 15px;
+					width:70px;
+					-moz-appearance: none;
+					-webkit-appearance: none;
+					background: #fff url("../images/arrow-down.png") no-repeat center right;
+					padding-right: 10px;
+					margin: 0px 15px;
+					width: 85px;
+				}				
+				}				
+			}
+			.view-per-page-sec-inner{
+				select{
+					margin:0px 15px;
+					width:70px;
+				}
+			}	
+}
+
+	@include respond-below(md){
+		
+		.wrap-order{
+			padding:40px 0px 70px 0px;
+		.p-3 {
+		padding: 0.5rem !important;
+	}
+	.heading-with-filter{
+			.filter, .sort{
+				display:block;
+				color:$btn-blue;
+				margin-top:5px;
+				
+				font-family:'PNC Sans Medium';
+				img{
+					margin-right:5px;
+				}
+			}
+		}
+	h3{
+			font-size: 30px;
+			}
+		.pagination-wrap{
+			display:none;
+		}
+		.pnc-order-wrapper{
+			box-shadow: none !important;
+			.pnc-order-table{
+			
+			display:none !important;
+		 }
+		 .mAlernate{
+			margin-bottom: 20px;
+			box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.25);
+			background-color: #F1F4F5;
+			padding: 5px 10px;
+			background-image: url(../images/circlearrow.svg) !important;
+			background-repeat: no-repeat;
+			background-position: 95%;
+		 }
+			 .p-3.col-md-2:nth-child(1) {
+				display:none;
+			}
+		 .p-3.col-lg-2:nth-child(2) {
+				display:none;
+			}
+			.p-3.col-lg-2:nth-child(3) {
+				display:none;
+			}
+			
+			.p-3.col-lg-2:nth-child(6) {
+				display:none;
+			}
+			.p-3.col-md-2.col-lg-1{
+				display:none;
+			}
+			.p-3.mPoints{
+				display:none;
+			}
+			.mdateAlignment{
+				order:2;		
+				
+		}	
+		.mdateStatus{
+				font-family: "PNC Sans General";
+				}
+		}
+		 
+	}
+	
+	.view-per-page-sec{
+		display:none;
+	}
+ }
+
+	
+	
+	@include respond-below(sm){
+		
+		.wrap-order{
+			padding:40px 0px 70px 0px;
+			.p-3 {
+    padding: 0.5rem !important;
+}
+	.heading-with-filter{
+		.filter, .sort{
+			display:block;
+			color:$btn-blue;
+			margin-top:5px;
+			
+			font-family:'PNC Sans Medium';
+			img{
+				margin-right:5px;
+			}
+		}
+		
+	}
+h3{
+	    font-size: 26px;
+		}
+		.pagination-wrap{
+			display:none;
+		}
+		.pnc-order-wrapper{
+			box-shadow: none !important;
+			.pnc-order-table{
+			
+			display:none !important;
+		 }
+		 .mAlernate{
+		 margin-bottom: 20px;
+		box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.25);
+		background-color: #F1F4F5;
+		padding: 5px 10px;
+		background-image: url(../images/circlearrow.svg) !important;
+		background-repeat: no-repeat;
+		background-position: 95%;
+		 }
+			.p-3.col-md-2:nth-child(1) {
+				display:none;
+			}
+		 .p-3.col-lg-2:nth-child(2) {
+				display:none;
+			}
+			.p-3.col-lg-2:nth-child(3) {
+				display:none;
+			}
+			.p-3.col-lg-2:nth-child(6) {
+				display:none;
+			}
+			.p-3.col-md-2.col-lg-1{
+				display:none;
+			}
+			.p-3.mPoints{
+				display:none;
+			}
+			.mdateAlignment{
+				order:2;
+		}	
+		}
+		 
+	}
+	.view-per-page-sec{
+		display:none;
+	}
+		
+	
+	}
+	.wrap-order{
+	.sort-inactive{
+		img{
+			position:relative;
+			top:-2px;
+		}
+	}
+  }

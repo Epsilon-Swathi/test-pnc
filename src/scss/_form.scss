@@ -1,0 +1,95 @@
+.formUser{
+	#formUserName,#formUserNameRetrive{
+		padding:30px 0px 0px 0px;
+		.zip-code{
+			display:inline-block;
+			float:right;
+			margin-right:38%;
+		}
+	}
+ @extend .contact_us;
+.forgotUsername{
+    padding-bottom: 13px;
+ }
+ label{
+     font-size: 16px;
+     font-family: 'PNC Sans General';
+     color: $color-dark-gray;
+ }
+ 
+ button{
+    background-color: #0069AA;
+    padding: 10px 50px;
+    color: $color-white;
+    font-size: 14px;
+    font-family: 'PNC Sans General';
+    margin-top: 20px;
+	opacity:1 !important;
+    &:hover{
+        color: $color-white;
+    }
+ }
+ #formUserName,#formUserNameRetrive{
+    .form-control{
+        width: 380px;
+    }
+ }
+ .note{
+ font-family: 'PNC Sans Light Italic';
+ font-size:14px;
+ }
+}
+
+.form-group {
+    .form-control{
+        border: 2px solid $color-gray-3;
+        border-radius: 4px;
+    }
+}
+
+.form-group.has-error .with-errors{
+    color: $color-error;
+    font-size: 14px;
+    padding-top: 8px;
+}
+
+
+@include respond-between(sm,md){
+.formUser{
+	h3{
+		font-size:30px;
+	}
+	#formUserName,#formUserNameRetrive{
+    .form-control{
+        width: 100%;
+    }
+	.zip-code{
+			
+			margin-right:0%;
+		}
+ }
+ 
+}
+
+}
+@include respond-below(sm){
+.formUser{
+	h3{
+		font-size:26px;
+	}
+	#formUserName,#formUserNameRetrive{
+    .form-control{
+        width: 100%;
+    }
+	.zip-code{
+			
+			margin-right:0%;
+		}
+ }
+ button{
+ width:100%;
+ }
+}
+}
+
+

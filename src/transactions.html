@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <title>PNC - Transaction</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon.ico">
+  <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="./images/favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+  <script src="./script/jquery.min.js"></script>
+  <script src="./script/popper.min.js"></script>
+  <script src="./script/bootstrap.min.js"></script>
+  
+</head>
+
+<body>
+<div class="menu-overlay">
+</div>
+<!-- Header Starts (visible only for Desktop) -->
+<header>
+<div class="container">
+<div class="d-flex justify-content-start">
+  <ul class="sigup">
+        <li><a href="#">PNC.com</a></li>
+        <li><a href="#">Personal</a></li>
+        <li><a href="#">Small Business</a></li>
+        <li><a href="#">Corporate & Institutional</a></li>
+        <li><a href="#">About Us</a></li>
+		<li class="only-sign-up text-right"><a href="#"><span><strong>Hi, Michael</strong></span></br><span>35,000 Points<span></a></li>
+  </ul>
+</div>
+</div>
+</header>
+<!-- Header Ends (visible only for Desktop) -->
+
+<!-- Nav bar Starts -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<div class="container">
+	<div class="menu-icon-container">
+			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="icon-bar top-bar"></span>
+		   <span class="icon-bar middle-bar"></span>
+		   <span class="icon-bar bottom-bar"></span>
+		   <span class="sr-only">Toggle navigation</span>
+			</button>
+	</div>
+	
+	<div class="menu-logo-container">
+		<img class="nav-logo" src="./images/PNC_Onyx_white.png" alt="PNC ONYX logo"/>
+	<!-- <img class="sign-in" src="../../images/icon-signin.svg" alt="Sign In"/> -->
+
+	</div>
+	
+	
+	
+	<div class="collapse navbar-collapse bg-dark" id="navbarCollapse">		
+		<ul class="navbar-nav">
+			<li class="nav-item sign-up-only-text">
+				<a class="nav-link" href="#"><span><img src="./images/icon-profile.svg" alt="Profile-icon"></span>Hi, Michael - 35,000 Points</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="#">WELCOME</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">REWARDS</a>
+			</li>
+			<li class="nav-item dropdown">
+				
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				MY ACCOUNT
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<div class="up-arrow"></div>
+					<a class="dropdown-item" href="#">Account Overview</a>
+					<a class="dropdown-item" href="#">Your Profile</a>
+					<a class="dropdown-item" href="#">Linked Cards</a>
+					<a class="dropdown-item" href="#">Communications</a>
+					<a class="dropdown-item" href="#">Preferences</a>
+					<a class="dropdown-item" href="#">Transactions</a>
+					<a class="dropdown-item" href="#">Reward Order History</a>
+					<a class="dropdown-item" href="#">5 - New Messages </a>
+				</div>
+			</li>
+			<li class="nav-item dropdown">
+				
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				HELP
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<div class="up-arrow"></div>
+					<a class="dropdown-item" href="#">FAQs</a>
+					<a class="dropdown-item" href="#">Contact Us</a>
+					<a class="dropdown-item" href="#">Terms and Conditions</a>
+				</div>
+			</li>
+		</ul>
+		<div class="pre-header-container">
+			<ul>
+				
+				<li><a>PNC.com</a></li>
+				<li><a>Personal</a></li>
+				<li><a>Small Business</a></li>
+				<li><a>Corporate & Institutional</a></li>
+				<li><a>About Us</a></li>
+				
+				
+			</ul> 
+		</div>
+	</div>		
+		
+		<div class="pnc-sign-in" tabindex="0" role="button" aria-pressed="false">
+			<a href="#">
+				<span class="pnc-sign-in-text">SIGN OUT</span><img class="sign-in" src="./images/icon-signin.svg" alt="Sign Out"/>
+			</a>
+		</div>	
+		
+	  </div>
+    </nav>
+    
+<!-- Nav bar Ends-->
+	<div class="container">
+		<div class="wrap-transaction">
+			<div class="row">
+				<div class="col-12 offset-md-2 col-md-8 offset-lg-0 col-lg-12 heading-with-filter">
+					<h3 role="heading" aria-level="1">Transactions</h3>
+						<span class="sort float-right">
+							<a class="sort-inactive" href="#">
+								<img class="sort-img" src="./images/sort-filter.svg" alt="sort-filter">Sort/Filter
+							</a>
+							<a class="sort-expand" href="#">
+								<img class="close-img" src="./images/close-button.svg" alt="close"> Close
+							</a>
+						</span>
+				</div>
+				<div class="col-12 offset-md-2 col-md-8 offset-lg-0 col-lg-12 pagination-wrap">					
+					<div class="d-flex pnc-transaction-pagination float-right">
+						<div class="month-filter">						
+						<span>From</span>
+							<select class="form-control selectBox" aria-label="selectbox-filter">
+									<option value="jan">Jan</option>
+									<option value="feb">Feb</option>
+									<option value="march">March</option>
+							</select>											
+						</div>
+						<div class="card-filter">						
+						<span>On Card</span>
+							<select id="filter" class="form-control selectBox" aria-label="selectbox-sort">
+									<option value="all">All </option>
+								<option value="$40">$40</option>
+								<option value="$60">$60</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 offset-md-2 col-md-8 offset-lg-0 col-lg-12">
+					<div class="pnc-sort-mb">
+								<p>FILTER BY</p>
+								<label>From</label>
+								<select id="filter-mb" class="form-control selectBox" aria-label="list-box" role="listbox">
+									<option value="10">Date</option>
+									<option value="20">20</option>
+									<option value="30">30</option>
+								</select>
+								<label>On Card</label>
+								<select id="filter-mb" class="form-control selectBox" aria-label="list-box" role="listbox">
+									<option value="10">Date</option>
+									<option value="20">20</option>
+									<option value="30">30</option>
+								</select>
+								<p>SORT BY</p>
+								<select id="filter-mb" class="form-control selectBox" aria-label="list-box" role="listbox">
+									<option value="10">Date</option>
+									<option value="20">20</option>
+									<option value="30">30</option>
+								</select>
+								<button type="submit" class="btn apply-filter">Apply Filter</button>
+					</div>
+				</div>
+				
+				
+			</div>	
+			<div class="row">
+				<div class="col-12 offset-md-2 col-md-8 offset-lg-0 col-lg-12">
+					<div class="pnc-transaction-wrapper">
+								<div class="d-flex pnc-transaction-table pr-2">
+								  <div class="p-3 col-lg-2">Date & Time <i class="fas fa-sort"></i></div>
+								  <div class="p-3 col-lg-2 text-lg-center">Card #</div>
+								  <div class="p-3 col-lg-4">Description</div>
+								  <div class="p-3 col-lg-2">Amount</div>
+								  <div class="p-3 col-lg-2 text-right">Points</div>
+								</div>
+								<div class="d-flex flex-wrap mAlernate pr-2">
+								  <span class="p-3 col-8 col-md-9 col-lg-2 mdateAlignment">04/01/2019 4:49 PM</span>
+								  <span class="p-3 col-md-2 col-lg-2 text-lg-center">2853</span>
+								  <span class="p-3 col-12 col-md-12 col-lg-4">Catalog Redemption - #6015323</span>
+								  <span class="p-3 col-md-2 col-lg-2">0</span>
+								  <span class="p-3 col-4 col-md-3 col-lg-2 text-lg-right">31,000<span class="points-mobile-only">pts</span></span>
+								</div>
+								<div class="d-flex flex-wrap pnc-table-color mAlernate pr-2">
+								  <span class="p-3 col-8 col-md-9 col-lg-2 mdateAlignment">04/01/2019 1:58 PM</span>
+								  <span class="p-3 col-md-2 col-lg-2 text-lg-center">2853</span>
+								  <span class="p-3 col-12 col-md-12 col-lg-4">Catalog Redemption - #6015323</span>
+								  <span class="p-3 col-md-2 col-lg-2">$768</span>
+								  <span class="p-3 col-4 col-md-3 col-lg-2 text-lg-right">-31,000<span class="points-mobile-only">pts</span></span>
+								</div>
+								<div class="d-flex flex-wrap mAlernate pr-2">
+								  <span class="p-3 col-8 col-md-9 col-lg-2 mdateAlignment">04/01/2019 1:58 PM</span>
+								  <span class="p-3 col-md-2 col-lg-2 text-lg-center">2853</span>
+								  <span class="p-3 col-12 col-md-12 col-lg-4">Catalog Redemption - #6015323</span>
+								  <span class="p-3 col-md-2 col-lg-2">$768</span>
+								  <span class="p-3 col-4 col-md-3 col-lg-2 text-lg-right">31,000<span class="points-mobile-only">pts</span></span>
+								</div>	
+								<div class="d-flex flex-wrap mAlernate pr-2">
+								  <span class="p-3 col-8 col-md-9 col-lg-2 mdateAlignment">04/01/2019 4:49 PM</span>
+								  <span class="p-3 col-md-2 col-lg-2 text-lg-center">2853</span>
+								  <span class="p-3 col-12 col-md-12 col-lg-4">Catalog Redemption - #6015323</span>
+								  <span class="p-3 col-md-2 col-lg-2">$768</span>
+								  <span class="p-3 col-4 col-md-3 col-lg-2 text-lg-right">31,000<span class="points-mobile-only">pts</span></span>
+								</div>
+								<div class="d-flex flex-wrap mAlernate pr-2">
+								  <span class="p-3 col-8 col-md-9 col-lg-2 mdateAlignment">04/01/2019 1:58 PM</span>
+								  <span class="p-3 col-md-2 col-lg-2 text-lg-center">2853</span>
+								  <span class="p-3 col-12 col-md-12 col-lg-4">Catalog Redemption - #6015323</span>
+								  <span class="p-3 col-md-2 col-lg-2">$768</span>
+								  <span class="p-3 col-4 col-md-3 col-lg-2 text-lg-right">31,000<span class="points-mobile-only">pts</span></span>
+								</div>	
+								<div class="d-flex flex-wrap mAlernate pr-2">
+								  <span class="p-3 col-8 col-md-9 col-lg-2 mdateAlignment">04/01/2019 4:49 PM</span>
+								  <span class="p-3 col-md-2 col-lg-2 text-lg-center">2853</span>
+								  <span class="p-3 col-12 col-md-12 col-lg-4">Catalog Redemption - #6015323</span>
+								  <span class="p-3 col-md-2 col-lg-2">$768</span>
+								  <span class="p-3 col-4 col-md-3 col-lg-2 text-lg-right">31,000<span class="points-mobile-only">pts</span></span>
+								</div>	
+								<div class="d-flex flex-wrap mAlernate pr-2">
+								  <span class="p-3 col-8 col-md-9 col-lg-2 mdateAlignment">04/01/2019 1:58 PM</span>
+								  <span class="p-3 col-md-2 col-lg-2 text-lg-center">2853</span>
+								  <span class="p-3 col-12 col-md-12 col-lg-4">Catalog Redemption - #6015323</span>
+								  <span class="p-3 col-md-2 col-lg-2">$768</span>
+								  <span class="p-3 col-4 col-md-3 col-lg-2 text-lg-right">31,000<span class="points-mobile-only">pts</span></span>
+								</div>	
+								<div class="d-flex flex-wrap mAlernate pr-2">
+								  <span class="p-3 col-8 col-md-9 col-lg-2 mdateAlignment">04/01/2019 4:49 PM</span>
+								  <span class="p-3 col-md-2 col-lg-2 text-lg-center">2853</span>
+								  <span class="p-3 col-12 col-md-12 col-lg-4">Catalog Redemption - #6015323</span>
+								  <span class="p-3 col-md-2 col-lg-2 ">$768</span>
+								  <span class="p-3 col-4 col-md-3 col-lg-2 text-lg-right">31,000<span class="points-mobile-only">pts</span></span>
+								</div>	
+								<div class="d-flex flex-wrap mAlernate pr-2">
+								  <span class="p-3 col-8 col-md-9 col-lg-2 mdateAlignment">04/01/2019 1:58 PM</span>
+								  <span class="p-3 col-md-2 col-lg-2 text-lg-center">2853</span>
+								  <span class="p-3 col-12 col-md-12 col-lg-4">Catalog Redemption - #6015323</span>
+								  <span class="p-3 col-md-2 col-lg-2">$768</span>
+								  <span class="p-3 col-4 col-md-3 col-lg-2 text-lg-right">31,000<span class="points-mobile-only">pts</span></span>
+								</div>	
+								<div class="d-flex flex-wrap mAlernate pr-2">
+								  <span class="p-3 col-8 col-md-9 col-lg-2 mdateAlignment">04/01/2019 1:58 PM</span>
+								  <span class="p-3 col-md-2 col-lg-2 text-lg-center">2853</span>
+								  <span class="p-3 col-12 col-md-12 col-lg-4">Catalog Redemption - #6015323</span>
+								  <span class="p-3 col-md-2 col-lg-2">$768</span>
+								  <span class="p-3 col-4 col-md-3 col-lg-2 text-lg-right">31,000<span class="points-mobile-only">pts</span></span>
+								</div>									
+					</div>
+				</div>			
+			</div>
+						<div class="float-right view-per-page-sec">						
+							<div class="d-flex view-per-page-sec-inner">
+								<span>View</span>
+								<select id="filter" class="form-control selectBox" aria-label="selectbox-pagination">
+										<option value="10">10</option>
+									<option value="20">20</option>
+									<option value="30">30</option>
+								</select>
+								<span>Per page</span>
+							</div>	
+						</div>			
+		</div>
+	</div>
+
+
+<!-- Footer Section Starts-->
+
+  <footer>
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-7 col-sm-12 col-5 logo">
+              <a class="navbar-brand" href="#" aria-label="PNC">
+                <img src="./images/pnc_footer_logo.png" alt="logo" />
+              </a>
+    
+            </div>
+        <div class="col-lg-5 col-sm-12 col-7">
+          <ul class="list">
+            <li><a href="" class="link ">Security & Privacy</a></li>
+            <li><a href="" class="link ">Terms & Conditions</a></li>
+            <li><a href="" class="link ">Privacy Policy</a></li>
+          </ul>
+          <p class="d-none d-sm-block">&copy; 2019 The PNC Financial Services Group, Inc. All rights reserved.</p>
+        </div> 
+      </div>
+      <div class="row d-block d-sm-none">
+          <div class="col-12">
+              <p>&copy; 2019 The PNC Financial Services Group, Inc. All rights reserved.</p>
+          </div>
+      </div>
+    </div>
+  </footer>
+  
+ <!-- Footer Section Ends--> 
+ 
+
+ 
+ <script src="./script/main.js"></script>
+  <script src="./script/validator.js"></script>
+    <script src="./script/validation.js"></script>
+</body>
+
+</html>

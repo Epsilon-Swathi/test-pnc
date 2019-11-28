@@ -1,0 +1,74 @@
+@mixin box-shadow($top,$left,$blur,$spread,$color) {
+    box-shadow: $top $left $blur $spread $color;
+    -webkit-box-shadow: $top $left $blur $spread $color;
+    -moz-box-shadow: $top $left $blur $spread $color;
+}
+
+@mixin table-color{
+  background-color: $color-gray-4;
+}
+
+@mixin table-shadow{
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.25);
+	border-radius:2px;
+}
+
+@mixin table-color-dark{
+	background-color: $color-gray;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.25);
+	color:$color-white;
+	font-family:'PNC Sans Medium';
+}
+
+@mixin orange-heading{
+	font-family: "PNC Sans General";
+	font-size: 20px;
+	color:$color-orange;
+	line-height: 28px;
+}
+@mixin select-style{
+	width:140px;
+	padding:0px 8px;
+	border: 2px solid $color-gray-3;
+	border-radius:4px;	
+	background-color: $color-white;
+	color:$color-gray;
+}
+
+@mixin heading-style{
+	font-size: 36px;
+    font-family: 'PNC Sans General';
+    line-height: 39px;
+    color: $color-dark-blue;
+    padding-bottom: 2px;
+}
+
+@mixin button-style{
+		color: $color-white;	
+		font-family: "PNC Sans General";
+		font-size: 14px;	
+		text-align: center;
+		border-radius: 4px;	
+		background-color: $btn-blue;
+		padding:5px 20px;
+		margin-top:-10px;
+	
+}
+@mixin custom-text-box{
+	content: '';
+			-webkit-appearance: none;
+			background-color: $color-white;
+			border: 1px solid $color-dark-blue;
+			box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+			padding: 10px;
+			display: inline-block;
+			position: relative;
+			vertical-align: middle;
+			cursor: pointer;
+			margin-right: 15px;
+			border-radius: 5px;
+}
+@mixin tooltip{
+	margin-left:10px;
+}
+

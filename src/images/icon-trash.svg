@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="24px" viewBox="0 0 20 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>trash can</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Batch-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Messages-2---Desktop" transform="translate(-1170.000000, -238.000000)" fill="#0069AA" fill-rule="nonzero">
+            <g id="Group-3" transform="translate(1119.000000, 238.000000)">
+                <g id="trash-can" transform="translate(51.000000, 0.000000)">
+                    <path d="M7,19 C7,19.552 6.552,20 6,20 C5.448,20 5,19.552 5,19 L5,9 C5,8.448 5.448,8 6,8 C6.552,8 7,8.448 7,9 L7,19 Z M11,19 C11,19.552 10.552,20 10,20 C9.448,20 9,19.552 9,19 L9,9 C9,8.448 9.448,8 10,8 C10.552,8 11,8.448 11,9 L11,19 Z M15,19 C15,19.552 14.552,20 14,20 C13.448,20 13,19.552 13,19 L13,9 C13,8.448 13.448,8 14,8 C14.552,8 15,8.448 15,9 L15,19 Z M20,2 L20,4 L0,4 L0,2 L5.711,2 C6.611,2 7.342,0.901 7.342,0 L12.657,0 C12.657,0.901 13.387,2 14.288,2 L20,2 Z M17,6 L17,22 L3,22 L3,6 L1,6 L1,24 L19,24 L19,6 L17,6 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

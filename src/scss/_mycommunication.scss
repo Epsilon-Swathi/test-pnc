@@ -1,0 +1,205 @@
+.pnc-my-coomunication{
+    padding: 40px 0 70px 0px;
+	
+	 h3{
+       @include heading-style;
+    }
+    p{
+        margin-bottom: 0px;
+        font-size: 16px;
+        line-height: 24px;
+        color: $color-dark-gray;
+		
+        span{
+            font-family: 'PNC Sans General';
+        }	
+	}
+	.pnc-mycom-form{
+		.pnc-tooltip{
+		display:inline-block;
+		float:right;
+		margin-right:30%;
+		}
+		margin-top:25px;
+		
+		.common-question{
+		margin-bottom:12px;
+		color:$color-orange;
+		font-family: "PNC Sans General";	
+		font-size: 20px;	
+		line-height: 28px;
+		}
+		
+		// Styling for custom checkbox starts
+		
+
+	.form-check{
+		padding: 0px;
+		}
+		
+	.form-group input.form-check-input {
+		  padding: 0;
+		  height: initial;
+		  width: initial;
+		  margin-bottom: 0;
+		  opacity:0;
+		  cursor: pointer;
+		}
+
+	.form-group label.electronic-program-check {
+		  position: relative;
+		  cursor: pointer;
+		  font-family:"PNC Sans Regular";
+		  color: $color-dark-gray;
+			-webkit-user-select: none;
+	}
+
+	.form-group label.electronic-program-check:before {
+	  content:'';
+	  -webkit-appearance: none;
+	  background-color: transparent;
+	  border: 1px solid #000000;
+	  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+	  padding: 10px;
+	  display: inline-block;
+	  position: relative;
+	  vertical-align: middle;
+	  cursor: pointer;
+	  margin-right: 15px;
+	  border-radius: 5px;
+	}
+
+	.form-group input:checked + label.electronic-program-check:after {
+	  content: '';
+	  display: block;
+	  position: absolute;
+	  top: 5px;
+	  left: 8px;
+	  width: 6px;
+	  height: 14px;
+	  border: solid #000000;
+	  border-width: 0 2px 2px 0;
+	  transform: rotate(45deg);
+	}
+
+// styling for custom checkbox ends.
+		.form-check{
+			margin-top:25px;
+			margin-bottom:25px;
+		}
+		.form-control{
+		width:70%;
+		//margin-bottom:20px;
+		
+		}
+	}
+		.pnc-mycom-mail label{	
+			color: $color-dark-gray;
+			font-family: "PNC Sans General";
+			font-size: 16px;	
+			line-height: 17px;
+		}
+		.pnc-btn-wrap{
+			
+					margin-top:30px;
+				
+			.cancel{
+					color: $btn-blue;
+					font-family: "PNC Sans General";
+					font-size: 14px;
+					line-height: 15px;	
+					text-align: center;
+					border: 2px solid $btn-blue;
+					border-radius: 4px;
+					 padding: 15px 50px;
+					 margin-right:20px;
+					 opacity:1;
+
+			}
+			.update{
+					color:$color-white;
+					font-family: "PNC Sans General";
+					font-size: 14px;
+					font-weight: bold;
+					line-height: 15px;
+					text-align: center;
+					border-radius: 4px;
+					background-color: $btn-blue;
+					 padding: 15px 50px;
+					 opacity:1;
+
+			}
+		}
+	}
+	
+	@include respond-between(sm,md){
+		.pnc-my-coomunication{
+				h3{
+					font-size:30px;
+				}
+			.pnc-mycom-form{
+				.pnc-tooltip{
+		
+		margin-right:0%;
+		}
+				.form-control{
+					width:100%;
+		}
+			}
+			.pnc-btn-wrap{
+				button{
+					width:48%;
+					
+				}
+				button.cancel{
+					margin-right:10px;
+				}
+				}
+				.pnc-btn-wrap{
+					margin-top:30px;
+				}
+		}
+	}
+	@include respond-below(sm){
+		
+	.pnc-my-coomunication{
+		h3{
+			font-size:26px;	
+			}
+			.pnc-mycom-form{
+			
+				.form-control{
+					width:100%;	
+		}
+			.pnc-tooltip{
+				margin-right:0px;
+			}
+			}
+			.pnc-btn-wrap{
+				display: flex;
+  flex-direction: column-reverse;
+				button{
+					display:block;
+					width:100%;
+				}
+				button.cancel{
+					
+					margin-top:25px;
+				}
+				}
+		}
+	}
+	
+	
+	::-webkit-input-placeholder {
+	 font-family: 'PNC Sans Medium';
+	}
+	::-moz-placeholder {
+	  font-family: 'PNC Sans Medium';
+	}
+	:-ms-input-placeholder {
+	  font-family: 'PNC Sans Medium';
+	}
+	::placeholder {
+	  font-family: 'PNC Sans Medium';
+	}

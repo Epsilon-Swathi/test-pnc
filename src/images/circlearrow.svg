@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>CTA - Circle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Batch-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="My-Account---Tablet" transform="translate(-557.000000, -446.000000)">
+            <g id="Group" transform="translate(167.000000, 430.000000)">
+                <g id="CTA---Circle" transform="translate(390.000000, 16.000000)">
+                    <g id="Group">
+                        <circle id="Oval" fill="#414E58" cx="14" cy="14" r="14"></circle>
+                        <polyline id="Path-2" stroke="#FFFFFF" stroke-width="2.5" points="11.9053548 9.33333333 16.3333333 13.7447917 11.9053548 18.4553223"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

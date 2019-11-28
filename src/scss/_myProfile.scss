@@ -1,0 +1,135 @@
+.pnc-profile{
+		color:$color-dark-gray;
+		padding: 40px 0 70px 0px;	
+	 h3{
+        @include heading-style;
+		margin-bottom:40px;
+    }
+    p{
+        margin-bottom: 0px;
+        font-size: 16px;
+        line-height: 24px;
+        color: $color-dark-gray;
+		
+        span{
+            font-family: 'PNC Sans General';
+        }
+	}
+	.tooltip-image img{
+		margin-left:5px;
+	}
+.pnc-profile-wrapper, .pnc-mail-wrapper{
+		background-color:$color-gray-4;
+		padding:20px 22px;
+		margin-bottom:20px;
+		@include table-shadow;
+		h4{
+			@include orange-heading;
+		}
+		.m-20 div{
+			margin-bottom:20px;
+			font-family: "PNC Sans Regular";
+			font-size: 16px;
+		}
+		.m-20 div:last-child{
+			margin-bottom:0px;
+			
+		}
+		.mailing-add{
+			padding-right:30px;
+		}
+		
+		strong{
+			font-family:'PNC Sans General';
+		}
+}
+	
+.pnc-accinfo-wrapper{
+		background-color:$color-gray-4;
+		padding:20px 22px;
+		@include table-shadow;
+		h4{
+			@include orange-heading;
+		}
+		p.secutity-para{
+		padding-top:15px ;
+		padding-bottom:20px;
+		}
+		.profile-update{
+			color: #fff;
+			width:100%;
+			font-family: "PNC Sans General";
+			font-size: 14px;
+			font-weight: bold;
+			line-height: 15px;
+			text-align: center;
+			border-radius: 4px;
+			background-color: #0069AA;
+			padding: 15px 50px;
+			opacity: 1!important;
+			margin:10px 0px 10px 0px;
+		}
+		select{
+			margin-bottom:16px !important;
+		}
+		.email-tooltip, .password-tooltip{
+			display:inline-block;
+			float:right;
+		}
+		#formMyprofile{
+			padding-right:30px;
+		}	
+	}
+	i{
+		font-size:14px;
+	}
+	label{
+		font-family:"PNC Sans General";
+	}
+	}
+	
+	@include respond-between(sm,md){
+		.pnc-profile{
+		h3{
+			font-size:30px;
+		}
+		.pnc-accinfo-wrapper{
+			#formMyprofile{
+			padding-right:0px;
+		}
+		}
+		.pnc-profile-wrapper,.pnc-mail-wrapper,.pnc-accinfo-wrapper{
+			h4{
+				margin-bottom:15px;
+			}
+		}
+			option{
+			width:100%
+		}
+		
+		}
+	}
+	
+	@include respond-below(sm){
+	.pnc-profile{
+		h3{
+			font-size:26px;
+		}
+		.pnc-accinfo-wrapper{
+			#formMyprofile{
+			padding-right:0px;
+		}
+		}
+		.pnc-profile-wrapper,.pnc-mail-wrapper,.pnc-accinfo-wrapper{
+			h4{
+				margin-bottom:15px;
+			}
+		}
+		option{
+			width:100%
+		}		
+	}
+		.m-20{
+			margin-bottom:20px;
+		}
+	}

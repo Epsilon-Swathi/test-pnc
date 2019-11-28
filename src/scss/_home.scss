@@ -1,0 +1,711 @@
+// Style for Desktop Starts
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'PNC Sans Regular';
+}
+
+// Container width for Desktop only
+@include respond-above(md){
+		.container{
+			max-width: 960px;
+			
+		}
+}
+.pnc-hero-banner {
+	background-image: url("../images/hero-desktop.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 60vh;
+	.pnc-banner-content {
+		position: relative;
+		top: 70px;
+		button {
+			background-color: $btn-blue;
+			padding: 10px 56px;
+			color: $color-white;
+			font-size: 14px;
+			font-family: 'PNC Sans General';
+		}
+		h1 {
+			color: $color-white;
+			margin-bottom: 30px;
+			text-transform: uppercase;
+			font-size: 38px;
+			font-family: 'PNC Sans General';
+		}
+	}
+}
+
+.pnc-twobox-section {
+	height: 290px;
+	width: 100%;
+	background-color: $color-gray;
+	.pnc-grey-box-content {
+		position: relative;
+		top: -100px;
+		.pnc-travel-box {
+			background-color: $color-white;
+			border-radius: $border-radius;
+			box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.25);
+			.pnc-travel-icon {
+				width: 110px;
+				margin: auto;
+				padding: 25px 0px;
+				img {
+					width: 100%;
+				}
+			}
+			.pnc-travel-text {
+				padding-bottom: 30px;
+				h4 {
+					color: $color-dark-blue;
+					font-family: 'PNC Sans General';
+				}
+				p {
+					font-family: 'PNC Sans Regular';
+					color: $color-dark-blue;
+					padding: 0px 25px 35px 25px;
+					font-size: 14px;
+				}
+				button {
+					background-color: $btn-gray;
+					padding: 10px 0px;
+					color: $color-white;
+					margin-top: 15px;
+					width: 200px;
+					
+				}				
+				
+			}
+		}
+		
+		.pnc-gift-box {
+			background-color: $color-white;
+		}
+		
+	}
+}
+
+.pnc-twobox-section.sign-up-twobox{
+	height:515px;
+	.pnc-grey-box-content{
+		    position: relative;
+			top: -100px;
+	}
+	
+	.pnc-card-image-wrapper{
+		    padding: 25px 40px;
+		background-color:$color-white;
+		border-radius:5px;
+		margin-bottom:30px;
+		.pnc-media{
+		
+			
+			.reward-point{
+				color:$color-orange;
+				font-size: 25px;
+				font-family: 'PNC Sans General';
+				line-height:26px;
+				
+			}
+			.reward-desc{
+				color:$color-gray;
+				font-size: 16px;
+				font-family: 'PNC Sans General';
+				
+				margin-top:30px;
+				 line-height: 18px;
+				padding-right:140px;
+			}
+		}
+		h5{
+			color:$color-gray;
+			font-family: 'PNC Sans Regular';
+		}
+		img{
+			width:100%;
+		}
+	}
+}
+
+
+.pnc-bonus-points {
+	background-color: $color-dark-gray;
+	.pnc-bonus-points-wrapper {
+		h3,
+		p,
+		button {
+			color: $color-white;
+		}
+		padding:4% 27%;
+		button {
+			font-size: 14px;
+			background-color: $btn-blue;
+			padding: 10px 18px;
+			margin-top: 15px;
+			font-family: 'PNC Sans General';
+		}
+		.pnc-divider {
+			width: 140px;
+			margin: 15px auto;
+			height: 2px;
+			background-color: $color-white;
+		}
+		h3{
+			font-family: 'PNC Sans General';
+		}
+	}
+}
+
+.pnc-rewards {
+	font-family: 'PNC Sans Regular';
+	font-size: 20px;
+	.pnc-container-wrap {
+		padding: 50px 0px;
+	}
+	background-color:$color-white;
+	.pnc-reward-inner-wrap {
+		box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.25);
+		.pnc-reward-image {
+			position: relative;
+			img {
+				width: 100%;
+			}
+			.pnc-reward-overtext {
+				position: absolute;
+				top: 15px;
+				left: 20px;
+				span {
+					color: $color-white;
+					display: block;
+					line-height: 24px;
+				}
+			}
+		}
+		.pnc-reward-content {
+			padding: 25px 20px;
+			button {
+				background-color: $btn-gray;
+				color: $color-white;
+				font-size: 14px;
+				padding: 12px;
+				font-family: 'PNC Sans General';
+			}
+			.pnc-reward-first {
+				color: $color-black;
+				font-size: 17px;
+				font-weight: bold;
+				margin-bottom: 4px;
+			}
+			.pnc-reward-sec {
+				padding: 0px 95px 0px 0px;
+				margin-bottom: 30px;
+				font-size: 14px;
+				line-height: 24px;
+				color: $color-light-gray;
+			}
+		}
+	}
+}
+
+.justify-content-center{
+	display: flex;
+
+	
+	.pnc-travel-box{
+		height: 100%;
+		position: relative;
+		padding-bottom: 20px;
+		
+		button{
+				position: absolute;
+				bottom: 30px;
+				background-color: $btn-gray;
+				width: 140px;
+				margin: auto;
+				left: 0;
+				right: 0;
+				margin-left: auto;
+				margin-right: auto;
+				color: $color-white;
+				font-size: 14px;
+				font-family: 'PNC Sans General';
+				padding: 10px;
+
+		}
+	}
+}
+
+// Style for Desktop Ends
+
+
+@include respond-above(md){
+	.pnc-travel-text{
+		.inner-para{
+		//min-height:63px;
+		}
+	}
+	
+}
+
+// Style for Tab and below
+@include respond-below(md){
+	.sort{
+		.sort-expand{
+		display: none;
+		}
+		&.expand{
+		.sort-expand{
+			display: inline-block;
+		}
+		.sort-inactive{
+			display: none;
+		}
+		}
+	}
+	
+}
+
+
+// Style for Tablet Starts
+@include respond-between(sm,md) {
+	.pnc-hero-banner {
+		background-image: url(../images/hero-tablet.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 40vh;
+	}
+	header {
+		display: none;
+	}
+	.pnc-hero-banner {
+		.pnc-banner-content {
+			h1{
+				font-size: 32px;
+			}
+		}
+	}
+	
+	.pnc-twobox-section.sign-up-twobox{
+		height:auto!important;
+		.pnc-grey-box-content{
+		    position: relative;
+			top: -90px;
+	}
+	}
+	
+	.pnc-twobox-section {
+		height:310px;
+		.pnc-grey-box-content {
+			.home-tiles {
+
+				padding: 12px;
+				.pnc-travel-text {
+					padding-bottom: 60px;
+					p {
+						padding: 0px 20px;
+					}
+					button {
+						padding: 10px 0px;
+						width: 180px;
+					}
+				}
+			}
+		}
+		.inner-para{
+			min-height: 66px;
+		}
+	}
+	.pnc-bonus-points {
+		.pnc-bonus-points-wrapper {
+			padding: 5% 16%;
+			h3{
+			font-family: 'PNC Sans General';
+			}
+		}
+	}
+	.pnc-rewards {
+		.pnc-reward-inner-wrap {
+			.pnc-reward-content {
+				.pnc-reward-sec {
+					padding-right: 15px;
+				}
+			}
+		}
+	}
+	.pnc-card-image-wrapper{
+		    padding: 25px 20px !important;
+			.reward-desc{
+			padding-right:0px !important;
+			margin-top:0px !important;
+			}
+			}
+			
+			
+}
+
+// Style for Tablet Ends
+
+
+// Style for Mobile starts
+@include respond-below(sm) {
+	header {
+		display: none;
+	}
+	.pnc-hero-banner {
+		background-image: url(../images/hero-mobile.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 70vh;
+		.pnc-banner-content {
+			position: relative;
+			top: 180px;
+			padding: 0px;
+			button {
+				width: 100%;
+			}
+			h1 {
+				font-size: 22px;
+				margin-bottom: 20px;
+			}
+		}
+	}
+	.pnc-bonus-points {
+		.pnc-bonus-points-wrapper {
+			padding: 35px 10px;
+			h3 {
+				font-size: 26px;
+			}
+			p {
+				font-size: 16px;
+			}
+			button {	
+				width: 100%;
+				margin: 15px 0px;
+				
+			}
+		}
+	}
+	.pnc-rewards {
+		.pnc-container-wrap {
+			padding: 50px 0px 25px 0px;
+			.pnc-reward-inner-wrap {
+				margin-bottom: 20px;
+				.pnc-reward-sec {
+					padding-right: 33px;
+				}
+				button {
+					width: 100%;
+				}
+			}
+		}
+	}
+	.pnc-twobox-section {
+		
+		height: auto!important;
+		.pnc-grey-box-content {
+			top: -45px;
+			.home-tiles {
+				
+				
+				button {
+					width: 90% !important;
+				}
+			.sign-up-only{
+					background-color: $color-white;
+					color:$color-dark-blue;
+					border:1px solid $color-dark-blue;
+				}
+				
+			}
+			.home-tiles:first-child{
+				margin-bottom: 20px;
+			}
+		}
+		.pnc-card-image-wrapper{
+			img{
+			width:100% !important;
+			}
+		}
+		.pnc-media{
+			margin-bottom: 30px;
+			.reward-desc{
+				padding-right:0px !important;
+			}
+			
+		}
+		
+	}
+	.sign-up-twobox{
+		margin-bottom:-25px;
+	}
+	
+}
+button{
+	letter-spacing:0.5px !important;
+}
+select{
+	appearance: none;
+    -webkit-appearance: none;
+	-moz-appearance: none;
+	background: #fff url("../images/arrow-down.png") no-repeat center right;
+	padding-right: 10px;
+	margin: 0px;
+    width: 100%;
+	font-family: "PNC Sans Medium";
+    font-size: 14px;
+	    background-position: right 13px center !important;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.tooltip-inner {
+    background-color:$color-dark-gray;
+	max-width:330px !important;
+	text-align:left;
+	padding:15px 25px;
+	opacity:1;
+	font-size:16px;
+	line-height:20px;
+}
+.tooltip.bs-tooltip-right .arrow:before {
+    border-right-color: $color-dark-gray !important;
+}
+.fas.fa-sort{
+	font-size: 18px;
+    padding-left: 10px;
+    line-height: 8px;
+	cursor:pointer;
+	position:relative;
+	top:2px;
+}
+//general sort style
+a.sort-inactive{
+	
+	color:$btn-blue;
+	text-decoration:none;
+	img{
+		padding-right:3px;
+	}
+}
+.pnc-sort-mb {
+	
+	display:none;
+			
+	select{
+		width:100% !important;
+		border:2px solid $color-gray-3;
+		margin-bottom:15px;
+	}
+	p{
+		margin-bottom:5px;
+		font-family: "PNC Sans Medium";
+		font-size: 16px;
+		color:$btn-blue;
+	}
+	.apply-filter{
+		width:100%;
+		background-color:$btn-blue;
+		color:$color-white;
+		font-family: "PNC Sans Medium";
+		font-size:14px;
+		margin-bottom:30px;
+		margin-top:10px;
+		padding:10px 0px;
+	}
+	
+	select, option{
+		color: $color-gray;
+		font-family: "PNC Sans Medium";
+		font-size: 14px;
+		
+	}
+	label{
+		font-family: "PNC Sans Medium";
+		font-size:14px;
+	}
+}
+@include respond-below(sm) {
+	.pnc-sort-mb {
+		
+			margin-top:15px;
+		
+	}
+	.sort{
+		position:relative;
+		top:3px;
+	}
+	.sort-inactive{
+		position:relative;
+		right:10px;
+	}
+	.sort-expand{
+		position:relative;
+		right:10px;
+	}
+}
+
+	.sort{
+		.sort-expand{
+		position:relative;
+		
+		color:$color-orange;
+		text-decoration:none;
+		font-family: "PNC Sans Medium";
+		i{
+		font-size:18px;
+		padding-right:5px;
+	}
+	}
+		.close-img{
+		position: relative;
+		top: -2px;
+		padding-right: 2px;
+	}
+	}
+	.sort.expand{
+		.sort-expand{
+		color:$color-orange;
+		text-decoration:none;
+	}
+	
+	}
+// general modal style
+.modal-dialog{
+	top:28%;
+}
+@include respond-between(sm,md){
+	.modal-dialog{
+	top:20%;
+}
+	.modal-dialog {
+    max-width: 452px;
+	}
+}
+
+@include respond-below(sm){
+	.modal-dialog{
+	top:34%;
+	.pnc-btn-wrap{
+		button{
+			width:80%;
+			margin:auto;
+			display:inline-block;
+			padding:10px 0px;
+			
+		}
+		.delete{
+			margin-bottom:20px;
+		}
+	}
+	}
+}
+
+
+.pnc-sign-in{
+	position: relative;
+  }
+  .pnc-sign-in a{
+	padding: 23px 6px 24px 13px;
+	display: inline-block;
+  }
+  .pnc-sign-in a.active, .pnc-sign-in a:hover{
+	background: #2D3942;
+  }
+  .logged-out{
+	text-align: center;
+	position: absolute;
+	top: 100%!important;
+	float: none!important;
+	display: none;
+	margin: 0 !important;
+	right: 0;
+	border: none!important;
+	width: 347px!important;
+	left: inherit!important;
+	padding: 20px 87px 45px!important;
+	background: #2D3942;
+	background: -moz-linear-gradient(top, #2D3942 0%, #757F8A 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #2D3942), color-stop(100%, #757F8A));
+	background: -webkit-linear-gradient(top, #2D3942 0%, #757F8A 100%);
+	background: -o-linear-gradient(top, #2D3942 0%, #757F8A 100%);
+	background: -ms-linear-gradient(top, #2D3942 0%, #757F8A 100%);
+	background: linear-gradient(to bottom, #2D3942 0%, #757F8A 100%);
+}
+
+  .logged-out input{
+	text-align: center;
+	color: #B9B9B9;
+	border-radius: 0;
+	border: none;
+	padding: 4px 10px;
+	width: 100%;
+	font-weight: 500;
+  }
+  .logged-out input::placeholder{
+	color: #B9B9B9;
+  }
+  .logged-out input:-ms-input-placeholder{
+	color: #B9B9B9;
+  }
+  .logged-out p{
+	font-weight: 700;
+	color: $color-white;
+	font-size: 15px;
+	margin-bottom: 10px; 
+	letter-spacing: 0.38px;
+	font-family: 'PNC Sans General';
+  }
+  .logged-out button{
+	padding: 12px 37px;
+	background: #0069AA;
+	border: none;
+	margin-top: 7px;
+	font-family: 'PNC Sans General';
+	font-size: 14px;
+  }
+  .logged-out button:hover{
+	background: #1489cc;
+  }
+  .logged-out .form-group{
+	margin-bottom: 10px;
+  }
+  .pnc-sign-in:hover .logged-out {
+	display: block;
+  }
+
+@media only screen and (min-width: 320px) and (max-width: 370px) {
+	.bg-dark .menu-logo-container {
+	  margin-right: 30px;
+	}
+}
+@media only screen and (max-width: 420px) {
+	.pnc-sign-in{
+		position: inherit;
+	}
+	.logged-out{
+		width: 100%!important;
+		margin: 0 20px;
+	}
+}
+
+@include respond-below(xs){
+	.logged-out{
+		background: $color-dark-gray;
+		padding: 30px 87px 35px !important;
+	}
+	.pnc-sign-in a {
+		padding: 28px 15px 24px 24px;
+	}
+	.pnc-sign-in a.active{
+		background: #414E58;
+	}
+}
+@include respond-below(xs){
+	.bg-dark .pnc-sign-in {
+		margin-right: 0;
+	}
+}

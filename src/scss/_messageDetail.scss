@@ -1,0 +1,150 @@
+.wrap-message-detail{
+	.p-3 {
+			padding: 0.9rem 1rem !important;
+			line-height: 14px;
+		}
+	p{
+		color:$color-dark-gray;
+	}
+	padding:40px 0px;
+	.pagination-wrap{
+		h3{
+	    font-size: 36px;
+    font-family: 'PNC Sans General';
+    line-height: 39px;
+    color: #2D3942;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+	display:inline-block;
+	}
+	.pnc-mD-pagination{
+		display:inline-block;
+		float:right;	
+		a{ 
+			display: inline-block; 
+		}
+	}
+	.pagination-numbers{
+		padding:0px 15px;
+		font-family: 'PNC Sans General';
+		
+	}
+	}
+	.pnc-mD-print{
+		.pnc-print{
+			padding-right:20px;
+		}
+	}
+	.pnc-mDtable-wrapper{
+		font-size:14px;
+		@include table-shadow;
+		.pnc-mDtable{
+			@include table-color-dark;	
+		}
+		.mDalternate{
+			color:$color-dark-gray;
+			min-height: 44px;
+			align-items: center;
+			.p-3{
+				padding: 0.3rem 1rem !important;
+			}
+		}
+		.mDalternate:nth-child(odd){
+				background-color: $color-gray-4;
+			}
+	}
+	.Info-about-order{
+		margin-top:40px;
+		.info-heading{
+			font-family: "PNC Sans General";	
+			font-size: 20px;
+			line-height: 28px;
+		}
+	}
+	.pnc-customer-service{
+		padding:0px 0px 35px 0px;
+		.label-from{
+			font-family: "PNC Sans General";	
+		}
+	}
+	.pnc-message-rewArd{
+		display:none;
+	}
+	
+	.desktop-break{
+		display: block;
+	}
+}
+
+@include respond-below(md){
+	h3{
+		font-size:30px !important;
+		}
+.label-from{
+		font-family: 'PNC Sans General';
+		}
+	.pnc-message-rewArd{
+		display:block !important;
+	}
+ .wrap-message-detail{
+	color:$color-dark-gray;
+	
+	.pnc-reward-deSc{
+		background-color:$color-gray-4;
+		@include table-shadow;
+	}
+	.desktop-only-rewardtable{
+		display:none;
+	}	
+	.pnc-message-rewArd{
+		.reward-md-wrap{
+			@include table-color;
+			padding:20px;
+			@include table-shadow;
+			color:$color-dark-gray;
+		}
+	}
+	.m-20{
+		margin-bottom:10px;
+	}
+	.m-20:last-child{
+		//margin-bottom:0px;
+	}
+	.second-block{
+		margin-top:30px;
+	}
+	
+		.desktop-break{
+		display: inline;
+	}
+	
+	}	
+ }
+	@include respond-below(sm){
+		h3{
+		font-size:26px !important;
+		}
+	.label-from{
+		font-family: 'PNC Sans General';
+		}
+		.pnc-message-rewArd{
+		display:block !important;
+	}
+		.wrap-message-detail{
+			.m-20{
+		margin-bottom:20px;
+	}}
+	.pnc-mD-pagination{
+		float:none !important;
+		display:block !important;
+	}
+		.pnc-mD-print{
+			display: inline-block;
+    position: relative;
+    bottom: 30px;
+		}
+		
+	.order-mobile-only{
+		order:2;
+	}
+	}

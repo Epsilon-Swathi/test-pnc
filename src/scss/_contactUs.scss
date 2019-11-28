@@ -1,0 +1,21 @@
+.contact_us{
+    padding: 40px 0 70px 0px;
+    h3{
+        font-size: 36px;
+        font-family: 'PNC Sans General';
+        line-height: 39px;
+        color: $color-dark-blue;
+        padding-bottom: 2px;
+    }
+    
+    p{
+        margin-bottom: 0px;
+        font-size: 16px;
+        line-height: 24px;
+        color: $color-dark-gray;
+        span{
+            font-family: 'PNC Sans General';
+        }
+    }
+}
+
